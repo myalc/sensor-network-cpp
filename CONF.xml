@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<sens type="conf" version="1.0">
+	<conf key="logpath" 				value="/tmp"/>
+	<conf key="loglevel" 				value="3"/>
+	<conf key="database_host" 			value="127.0.0.1"/>
+	<conf key="database" 				value="sensornetworkdb"/>
+	<conf key="database_conn_str" 		value="databaseconstr"/>
+	<conf key="database_user" 			value="root"/>
+	<conf key="database_psw" 			value="123456"/>
+	<conf key="serial_port" 			value="9999"/>
+	<conf key="check1_first_timeout" 	value="240"/>
+	<conf key="check1_timeout" 			value="600"/>
+	<conf key="check2_timeout" 			value="240"/>
+	<conf key="check3_timeout" 			value="1200"/>
+	<conf key="livedb_update_period" 	value="180"/>
+	<conf key="config_check_period" 	value="300"/>
+</sens>
